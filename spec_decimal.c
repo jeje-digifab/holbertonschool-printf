@@ -7,7 +7,7 @@
  */
 int spec_decimal(va_list args)
 {
-	int num = va_arg(args, int);
+	long int num = va_arg(args, int);
 	int num2;
 	int base = 1;
 	int i = 0;
