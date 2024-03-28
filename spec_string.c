@@ -13,5 +13,5 @@ int spec_string(va_list args)
 
 	for (i = 0 ; string[i] != '\0' ; i++)
 		_putchar(string[i]);
-	return (0);
+	return (i);
 }
