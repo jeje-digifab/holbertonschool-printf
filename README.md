@@ -77,4 +77,7 @@ The custom `_printf` function provided in this repository has several limitation
 
 Please refer to the standard `printf` function documentation for more information on its capabilities and usage.
 
+## Flowchart of the function _printf
+![Flowchart of the function _printf](include/flowchart-printf.svg?raw=true)
+
 **Made for the HOLBERTON SCHOOL - cohort THO-0224**
