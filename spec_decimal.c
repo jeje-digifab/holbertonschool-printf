@@ -3,7 +3,7 @@
 /**
  * spec_decimal - function to return int (from %d or %i)
  * @args: argument value from the va_list (variadic)
- * Return: the character passed by args value
+ * Return: len of number passed by args value
  */
 int spec_decimal(va_list args)
 {
@@ -16,6 +16,7 @@ int spec_decimal(va_list args)
 	{
 		_putchar('-');
 		num = num * -1;
+		i++;
 	}
 	num2 = num;
 	while ((num2 / 10) != 0)
